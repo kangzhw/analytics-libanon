@@ -14,9 +14,9 @@
 // Newer openssl versions do not define LHASH.
 // Work around this by defining this macro.
 // See also: https://github.com/facebook/hiphop-php/commit/f46b886d9a1ec9fb9cab26babd60a39eb9e47197
-#ifndef LHASH
+#if OPENSSL_VERSION_NUMBER >= 0x10000002L
 #define LHASH LHASH_OF(CONF_VALUE)
-#endif /* LHASH */
+#endif /* OPENSSL_VERSION_NUMBER */
 
 #ifndef _LIBANON_H_
 #define _LIBANON_H_

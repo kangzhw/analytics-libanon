@@ -1,3 +1,7 @@
+2012-09-04  Andrew Otto <otto@wikimedia.org>
+
+	* Modified source to support newer versions of openssl.
+
 2008-03-05  Juergen Schoenwaelder  <j.schoenwaelder@jacobs-university.de>
 
 	* libanon: initial version.

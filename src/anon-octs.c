@@ -113,6 +113,23 @@ anon_octs_cmp(const struct hash_node *arg1,
     return strcmp(arg1->data, arg2->data);
 }
 
+// Newer versions of openssl append
+// a _hash and _cmp to the function names that 
+// IMPLEMENT_LHASH_{HASH,COMP}_FN functions call.
+// Create wrappers so that these functions exist
+// without having to update all of the functions
+// througought this code.
+#if OPENSSL_VERSION_NUMBER >= 0x10000002L
+static unsigned long
+anon_octs_hash_hash(const struct hash_node *tohash) {
+	return anon_octs_hash(tohash);
+}
+static int
+anon_octs_cmp_cmp(const struct hash_node *arg1, const struct hash_node *arg2) {
+	return anon_octs_cmp(arg1, arg2);
+}
+#endif
+
 /* Create the type-safe wrapper functions for use in the LHASH internals */
 static
 IMPLEMENT_LHASH_HASH_FN(anon_octs_hash, const struct hash_node *);

@@ -4,7 +4,7 @@
 # .deb packages and runs dpkg-buildpackage.
 
 # make sure needed packages are installed.
-apt-get install                       \
+sudo apt-get install                       \
 subversion                            \
 dpkg-dev                              \
 pkg-config libtool debhelper          \

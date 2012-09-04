@@ -1,0 +1,25 @@
+This work was packaged for Debian by:
+
+    Andrew Otto <otto@wikimedia.org> on Tue, 28 Aug 2012 18:43:17 +0000
+
+It was downloaded from http://cnds.eecs.jacobs-university.de/software/libanon/
+
+Upstream Author(s):
+
+    Matus Harvan <m.harvan@jacobs-university.de>
+    Juergen Schoenwaelder <j.schoenwaelder@jacobs-university.de>
+
+Copyright:
+
+    Matus Harvan <m.harvan@jacobs-university.de>
+    Juergen Schoenwaelder <j.schoenwaelder@jacobs-university.de>
+
+License:
+
+    GNU LESSER GENERAL PUBLIC LICENSE
+
+The Debian packaging is:
+
+    Copyright (C) 2012 Wikimedia Foundation
+    and is licensed under the GPL version 3, 
+    see `/usr/share/common-licenses/GPL-3'.

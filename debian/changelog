@@ -1,5 +1,5 @@
-libanon (0.1-1) unstable; urgency=low
+libanon (0.2.0-1) unstable; urgency=low
 
   * Created .deb packaging.
-
- -- Andrew Otto <otto@wikimedia.org>  Tue, 28 Aug 2012 18:43:17 +0000
+ 
+ -- Andrew Otto (WMF) <otto@wikimedia.org>  Tue, 28 Aug 2012 18:43:17 +0000

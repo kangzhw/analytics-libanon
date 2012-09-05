@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libanon
+Description: library of reusable anonymiztion functions
+Requires: openssl
+Version: 0.2.0
+Libs: -L${libdir} -lanon
+Cflags: -I${includedir}

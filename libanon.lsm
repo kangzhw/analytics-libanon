@@ -1,0 +1,19 @@
+Begin3
+Title:		libanon
+Version:	0.2.0
+Entered-date:	2012-09-05
+Description:	The libanon library is a collection of reusable anonymiztion
+	        functions for numbers, strings and network specific data
+		types such as IP addresses or MAC addresses.
+Keywords:	[substitute your keywords here]
+Author: 	j.schoenwaelder@jacobs-university.de (Juergen Schoenwaelder)
+		m.harvan@jacobs-university.de (Matus Harvan)
+Maintained-by:	j.schoenwaelder@jacobs-university.de (Juergen Schoenwaelder)
+Primary-site:	metlab.unc.edu pub/Linux/apps/some/directory
+		31k libanon-0.2.0.tar.gz
+		500  libanon.lsm
+Alternate-site: 
+Original-site:  
+Platforms:      
+Copying-policy:	Gnu Lesser General Public License (GLPL) 2.0
+End

@@ -19,4 +19,24 @@
 
 Comments are welcome.
 
+
+
+
+Building
+==========
+
+  If while compiling you get an error similar to this
+
+      libtool: Version mismatch error.  This is libtool 2.4 Debian-2.4-2,but the 
+      libtool: definition of this LT_INIT comes from libtool 2.2.6b.
+      libtool: You should recreate aclocal.m4 with macros from libtool 2.4 Debian-2.4-2
+      libtool: and run autoconf again.
+
+  then follow these steps:
+    
+    1) make maintainer-clean
+    2) rm -f aclocal.m4 configure Makefile.in config.h config.h.in config.status libtool ltmain.sh
+    3) rm -rf m4 autom4te.cache
+    3) autoreconf ; ./configure ; make
+
 - Juergen Schoenwaelder <j.schoenwaelder@jacobs-university.de>

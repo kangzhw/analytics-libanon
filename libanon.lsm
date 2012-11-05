@@ -1,7 +1,7 @@
 Begin3
 Title:		libanon
 Version:	0.2.0
-Entered-date:	2012-09-05
+Entered-date:	2012-11-05
 Description:	The libanon library is a collection of reusable anonymiztion
 	        functions for numbers, strings and network specific data
 		types such as IP addresses or MAC addresses.

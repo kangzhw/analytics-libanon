@@ -13,7 +13,7 @@ VERSION_STRING="$LIBANON_MAJOR.$LIBANON_MINOR.$LIBANON_PATCHLEVEL"
 VERSION_LIBTOOL="$LIBTOOL_VERSION:$LIBTOOL_REVISION:$LIBTOOL_AGE"
 
 dnl Every other copy of the package version number gets its value from here
-AM_INIT_AUTOMAKE(libanon, $VERSION_STRING)
+AM_INIT_AUTOMAKE([libanon], [$VERSION_STRING])
 
 dnl create a config.h file (Automake will add -DHAVE_CONFIG_H)
 AM_CONFIG_HEADER(config.h)
